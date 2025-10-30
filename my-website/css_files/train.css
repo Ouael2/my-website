@@ -1,0 +1,352 @@
+body {
+    font-family: National Park;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(#572c89, #00397A, #AF5708, #351F0E, #190E04);
+}
+
+.algeria {
+    text-align: center;
+    background-image: url("../images/sahara-desert-sand-dunes-algeria-soil-daytime-blue-sky-3652x2739-3612.jpg");
+    height: 330px;
+    background-size: cover;
+    margin: 0px;
+}
+
+#welcome {
+    text-transform: capitalize;
+    color: rgb(234, 225, 212);
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    margin-top: 0px;
+    padding-top: 100px;
+}
+
+#fln {
+    border-radius: 15px;
+    background-color: #00397A;
+    margin: 60px auto;
+    padding-bottom: 30px;
+    transition: 0.4s ease;
+    box-shadow: 0 0 10px rgb(0, 0, 0.3);
+}
+
+#fln:hover {
+    transform: scale(1.05);
+    border: 1px solid wheat;
+    background-color: #004E8E;
+    box-shadow: 0 0 20px rgb(0, 0, 0.6);
+}
+
+#img-war2 {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0px auto 30px;
+}
+
+#sahara {
+    background-color: #00397A;
+    border-radius: 15px;
+    margin: 60px 0px;
+    width: 300px;
+    padding-bottom: 30px;
+    transition: 0.5s ease;
+    box-shadow: 0 0 10px rgb(0, 0, 0.3);
+}
+
+#sahara:hover {
+    transform: scale(1.05);
+    border: 1px solid wheat;
+    background-color: #004E8E;
+    width: 330px;
+    box-shadow: 0 0 20px rgb(0, 0, 0.6);
+}
+
+
+#landmark {
+    background-color: #00397A;
+    border-radius: 15px;
+    margin: 60px auto;
+    transition: 0.5s ease;
+    box-shadow: 0 0 10px rgb(0, 0, 0.3);
+}
+
+#landmark:hover {
+    transform: scale(1.05);
+    border: 1px solid wheat;
+    background-color: #004E8E;
+    box-shadow: 0 0 20px rgb(0, 0, 0.6);
+}
+
+
+#img-desert1 {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0px auto 30px;
+}
+
+
+#img-landmark1 {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0px auto 30px;
+}
+
+#flns {
+    color: floralwhite;
+    text-shadow: 2px 2px 4px black;
+    padding: 0px 15px;
+}
+
+#desert {
+    color: floralwhite;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    padding: 0 15px;
+}
+
+#landmarks {
+    color: floralwhite;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    padding: 0 15px;
+
+}
+
+.three-parts {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#link {
+    color: #A6550F;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#link1 {
+    color: #A6550F;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#link2 {
+    color: #A6550F;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#link:hover {
+    color: #733608;
+}
+
+#link1:hover {
+    color: #733608;
+}
+
+#link2:hover {
+    color: #733608;
+}
+
+#title {
+    color: floralwhite;
+    text-shadow: 0 0 4px black;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+#definition {
+    color: floralwhite;
+    margin-left: 20px;
+    text-indent: 20px;
+    margin-bottom: 100px;
+}
+
+#title-1 {
+    color: floralwhite;
+    text-shadow: 0 0 4px black;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.first-part {
+    font-family: Playfair Display;
+}
+
+#definition1 {
+    color: floralwhite;
+    margin-left: 20px;
+    text-indent: 20px;
+    margin-bottom: 50px;
+}
+
+#img-soldier-title {
+    margin: 20px 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0.6);
+}
+
+#soldier-definition {
+    color: floralwhite;
+    overflow: hidden;
+    position: relative;
+    line-height: 1.5;
+    word-spacing: 4px;
+    text-transform: capitalize;
+}
+
+#solder-title-def {
+    color: floralwhite;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+#prop {
+    color: floralwhite;
+    font-size: 30px;
+}
+
+#folat-img {
+    position: absolute;
+    box-shadow: 0 0 15px black;
+    right: 200px;
+    top: 300px;
+}
+
+#describe {
+    margin-left: 20px;
+    position: absolute;
+    color: floralwhite;
+    top: 350px;
+    width: 330px;
+    line-height: 1.5;
+    word-spacing: 4px;
+    text-transform: capitalize;
+}
+
+#folat-img1 {
+    height: 300px;
+    width: 435px;
+}
+
+#title-1-img {
+    display: flex;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+#hope {
+    position: absolute;
+    color: floralwhite;
+    line-height: 1.5;
+    word-spacing: 4px;
+    width: 220px;
+    background-color: #813B08;
+    box-shadow: 0 0 15px black;
+    right: 40px;
+    top: 340px;
+    padding: 10px 35px;
+}
+
+#hope-title {
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#title-1-img {
+    margin: auto;
+}
+
+#g6 {
+    height: 340px;
+    width: 290px;
+    margin: 0px;
+}
+
+#g66 {
+    position: absolute;
+    right: 40px;
+    box-shadow: 0 0 15px black;
+    bottom: -520px;
+}
+
+#grey {
+    width: 370px;
+    height: 300px;
+    background-color: #4f4133;
+    position: absolute;
+    right: 80px;
+    top: 1750px;
+}
+
+#spaceee {
+    margin-top: 500px;
+}
+
+#freedom {
+    position: absolute;
+    width: 400px;
+    height: 280px;
+    box-shadow: 0 0 15px black;
+    left: 400px;
+    top: 830px;
+}
+
+#cilbrate-title {
+    font-size: 30px;
+    color: floralwhite
+}
+
+#cilbrate {
+    color: floralwhite
+}
+
+#indepandce {
+    position: absolute;
+    width: 330px;
+    left: 20px;
+    top: 650px;
+}
+
+#title-2 {
+    margin: 80px 20px 40px;
+    width: 400px;
+}
+
+#nature {
+    font-size: 30px;
+    color: floralwhite;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+#nature-types {
+    color: floralwhite;
+    word-spacing: 6px;
+    line-height: 1.5;
+}
+
+.line {
+    margin: 332px 20px 30px;
+    border-bottom: 4px solid floralwhite;
+    width: 14%;
+}
+
+.line1 {
+    margin: 40px 20px 30px;
+    border-bottom: 4px solid floralwhite;
+    width: 32%;
+}
+
+.line2 {
+    border-bottom: 4px solid floralwhite;
+    margin: 420px 20px 50px;
+}
